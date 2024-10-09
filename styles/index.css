@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cards .card {
+    border: 1px solid black;
+    padding: 20px;
+    margin: auto;
+    max-width: 400px;
+}
+
+.cards .card img {
+    display: block;
+    margin: auto;
+    width: 320px;
+    height: 320px;
+}
